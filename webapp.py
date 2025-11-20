@@ -94,7 +94,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     data = pd.read_csv('files/webapp_data.csv')
-    fips = pd.read_excel('files/US_FIPS_CODES.xls')
+    fips = pd.read_excel('files/US_FIPS_Codes.xls')
     return data, fips
 
 @st.cache_data
