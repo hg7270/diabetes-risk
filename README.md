@@ -7,7 +7,7 @@ Organization of files:
   - __preprocess-data.ipynb__: dataset preprocessing, standardization, and merge
   - __prepare-dataset.ipynb__: dataset split into train, test, val sets
   - __train-diabetes-risk.ipynb__: model training and evaluation
-- __files/*__: data files that the webapp depends on
+- __webapp_files/*__: data files that the webapp depends on
   - __US_FIPS_Codes.xls__: geographical info for counties allowing the map to render
-  - __webapp_data.csv__: county-level data exported after model training
+  - __county_data_for_webapp.csv__: county-level data exported after model training
 - __webapp.py__: code for webapp
