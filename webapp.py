@@ -192,9 +192,9 @@ FEATURE_DESCRIPTIONS = {
 }
 
 def get_risk_category(risk_score):
-    if risk_score < 1.0:
+    if risk_score < 0.78:
         return "Low Risk", "risk-low", "#388e3c"
-    elif risk_score < 1.5:
+    elif risk_score < 1.75:
         return "Medium Risk", "risk-medium", "#f57c00"
     else:
         return "High Risk", "risk-high", "#d32f2f"
